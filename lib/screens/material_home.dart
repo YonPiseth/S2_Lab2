@@ -28,8 +28,9 @@ class MaterialHome extends StatelessWidget {
               accountName: Text("User Name"),
               accountEmail: Text("user@example.com"),
               currentAccountPicture: CircleAvatar(
-                backgroundColor: Colors.white,
-                child: Text("U", style: TextStyle(fontSize: 24.0)),
+                backgroundImage: NetworkImage(
+                  "https://scontent.fpnh5-4.fna.fbcdn.net/v/t39.30808-6/510404078_2176727496163912_5298614412175328104_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-bqmvlCA4usQ7kNvwG7aUgx&_nc_oc=AdkBaKVATp6KAfn0QZh1ok_kbyhE0_4WLX8tpR3DoPvf-Z1kqF5wrQZTrMuXcevTs3A&_nc_zt=23&_nc_ht=scontent.fpnh5-4.fna&_nc_gid=EhtS88M7HnrXm7LP5GbPGQ&oh=00_AfoyLMGt2ASuS5eqBFf5ClKubLiWkcQS0mbZoTsy8DnSMA&oe=69602EE3",
+                ),
               ),
               decoration: BoxDecoration(color: Colors.blue),
             ),
